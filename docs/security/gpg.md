@@ -1,3 +1,11 @@
-# GPG Test
+# GPG Import
  
-Wed 11 Sep 2019 08:54:37 PM MST
+To import the gpg software signing key, open seahorse and search for ```0xF32E17D74D6DE172```.
+
+Once key is locate and downloaded run:
+
+```bash
+gpg -K
+```
+
+Look to ensure the key is added.

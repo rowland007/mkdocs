@@ -15,10 +15,10 @@ pip install mkdocs
 
 ```
 site_name: MkDocs Test Document
-site_url: https://rowland007.github.io/mkdocs
+site_url: https://rowland007.github.io/
 site_description: Testing out MkDocs tools. 
 site_author: Randy Rowland
-repo_url: https://github.com/rowland007/mkdocs
+repo_url: https://github.com/rowland007/rowland007.github.io/
 strict: true
 theme: windmill
 
@@ -36,5 +36,5 @@ nav:
   - About: index.md
   - Security:
     - GPG: security/gpg.md
-    - ssh: security/ssh.md
+    - Syncthing: security/syncthing.md
 ```
