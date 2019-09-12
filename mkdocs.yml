@@ -18,9 +18,9 @@ plugins:
 nav:
   - About: index.md
   - MkDocs:
-    - Installation: install.md
-    - Example mkdocs File: example.md
-    - Working with Github: github.md
+    - Installation: mkdocs/install.md
+    - Example mkdocs File: mkdocs/example.md
+    - Working with Github: mkdocs/github.md
   - Security:
     - GPG: security/gpg.md
     - Syncthing: security/syncthing.md
