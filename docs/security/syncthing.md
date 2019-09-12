@@ -2,13 +2,13 @@
 
 When utilizing Syncthing between desktop computers, phones, and the Syncthing server, files located on the server may be plaintext. This could cause compromise if someone was to gain access to the files on the server if the server is on. The hard drive is encrypted but only when power is removed. To increase security, all files should be synced using Cryptomator. This will ensure files at rest on the server are always encrypted. This will also ensure files are encrypted as they transverse through the internet and prevent unauthorized access should the modem/router/wi-fi be compromised. This document covers how to setup the correct file structure per VM or OS.
 
-![SyncthingSecurityModel](https://raw.githubusercontent.com/rowland007/rowland007.github.io/master/security/_resources/bd76df8c8307449c8cb25330c0be04c0.png)
+![SyncthingSecurityModel](bd76df8c8307449c8cb25330c0be04c0.png)
 
 # File Management
 
 The idea is to have the folders of the encrypted files synced in another location besides the ```Document``` like folders. Then when utilizing Cryptomator to decrypt the files and mount it to a location, ```Document``` could be mounted over with the decrypted files. This could also server a decoy with fake files located in ```Document``` if the device happens to be investigated. [**UPDATE**] Cryptomator will not allow the decrypted files to be mounted over other files. The directory must be empty.
 
-![SyncthingFileStructure](https://raw.githubusercontent.com/rowland007/rowland007.github.io/master/security/_resources/b29419e9d5184bcc88aa647d088f7704.png)
+![SyncthingFileStructure](b29419e9d5184bcc88aa647d088f7704.png)
 
 ## Example
 
